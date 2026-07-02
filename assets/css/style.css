@@ -1,0 +1,135 @@
+    * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    }
+    body {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100%;
+      margin: 0;
+      padding: 0%;
+      background-color: #f2f2f2;     
+      flex-direction: column;
+      margin-top: 30px;
+    }
+    /* Problema 1 */
+    /* Clase que aplicaremos con JS cuando el borde deba estar activo */
+    .borde-activo {
+      border: 5px solid red;
+    }
+    h3 {
+      color: #333;
+    }
+    img {      
+      cursor: pointer; /* para que se vea como un botón al pasar el mouse */
+      max-width: 250px;       
+    }
+     #box-1 {
+      background-color: #f59324;   
+      font-family: Arial, sans-serif;  
+      display: flex;
+      flex-direction: column;
+      justify-content: center; 
+      width: 64%;
+      align-items: center;
+      border: 5px solid red;
+      font-size: 25px;
+      padding: 30px;
+    }
+    #prueba-1 {
+      display: flex;
+      width: 70%;
+      justify-content: center;  
+      align-items: center;
+      margin-top: 20px;   
+    }
+    /* Problema 2 */
+    #box-2{
+      margin-top: 40px;
+      border: 5px solid rgb(211, 5, 230);
+      font-family: Arial, sans-serif;
+      background-color: #c88ece;
+      text-align: center;
+      padding: 30px;
+    }
+    h1 {
+      color: #333;
+    }
+    .contenedor {
+      display: flex;
+      justify-content: center;
+      gap: 15px;
+      flex-wrap: wrap;
+      margin-top: 40px;    
+    }
+    .sticker {
+      background: white;
+      border-radius: 12px;
+      padding: 15px;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.15);
+      width: 160px;
+      border: 5px solid rgb(211, 5, 230);
+    }
+    .sticker img {
+      width: 120px;
+      height: 120px;
+      object-fit: cover;
+      border-radius: 8px;
+    }
+    .sticker p {
+      font-weight: bold;
+      margin: 10px 0 5px;
+    }
+    .sticker input {
+      width: 60px;
+      padding: 5px;
+      text-align: center;
+      font-size: 16px;
+    }
+    #resultado {
+      margin-top: 30px;
+      font-size: 20px;
+      font-weight: bold;
+      color: #333;
+    }
+    #resultado.error {
+      color: #f70404;
+    }
+    /* Problema 3 */
+    #box-3 {
+      display: flex; 
+      padding: 20px; 
+      gap: 10px;      
+      flex-direction: column;
+      align-items: center;
+      margin-top: 40px;
+      background-color: aquamarine;
+      margin-bottom: 60px;
+      min-width: 350px;
+      min-height: 250px;
+      border: 5px solid rgb(20, 5, 230);    
+    }
+    h2{
+      color: #333;
+    }
+    select {
+      font-size: 15px;
+      margin-top: 20px;
+      padding: 5px;
+    }
+    button {
+      margin-top: 20px;
+      padding: 8px 20px;
+      font-size: 16px;
+      cursor: pointer;
+    }
+    #resultado3 {
+      margin-top: 10px;
+      font-size: 25px;
+      font-weight: bold;
+      color: #333;         
+    }
+
+     

@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Desafio JS Condiciones</title>
+  <link rel="stylesheet" href="./assets/css/style.css">
+</head>
+<body>
+<! -- Prueba 1 -- !>
+   <div id="box-1">
+        <h3>Click en imagen - Borde condicional</h3>
+        <!-- La imagen que vamos a manipular. Le ponemos un id para poder seleccionarla desde JS -->
+        <div id="prueba-1">              
+        <img id="miImagen" src="assets/img/descarga2.png" alt="Imagen click">
+        </div>
+    </div>
+<! -- Prueba 2 -- !>
+    <div id="box-2">
+        <h1>Pedido de Stickers</h1>
+        <p>Puedes pedir hasta 10 stickers en total, combinando los 3 tipos disponibles.</p>
+        <div class="contenedor">
+            <div class="sticker">
+                <img src="assets/img/slack.png" alt="Sticker 1">
+                <p>Sticker Tipo 1</p>
+                <input type="number" id="sticker1" min="0" value="0" onchange="calcularStickers()">
+            </div> 
+            <div class="sticker">
+                <img src="assets/img/git.jpeg" alt="Sticker 2">
+                <p>Sticker Tipo 2</p>
+                <input type="number" id="sticker2" min="0" value="0" onchange="calcularStickers()">
+            </div>
+            <div class="sticker">
+                <img src="assets/img/pulpos.jpeg" alt="Sticker 3">
+                <p>Sticker Tipo 3</p>
+                <input type="number" id="sticker3" min="0" value="0" onchange="calcularStickers()">
+            </div>            
+        </div>
+        <p id="resultado"></p> 
+    </div>
+<! -- Prueba 3 -- !>
+    <div id="box-3">
+        <h2>Ingrese las passwords</h2>
+        <div>
+            <select id="select1"></select>
+            <select id="select2"></select>
+            <select id="select3"></select>
+        </div>     
+        <button id="btnIngresar">Ingresar</button>
+        <p id="resultado3"></p>        
+    </div>
+  <script src="./assets/js/script.js"></script>
+</body>
+</html>
