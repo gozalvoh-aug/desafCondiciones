@@ -24,7 +24,8 @@
     }
     img {      
       cursor: pointer; /* para que se vea como un botón al pasar el mouse */
-      max-width: 250px;       
+      max-width: 250px;  
+      border-radius: 12px;     
     }
      #box-1 {
       background-color: #f59324;   
@@ -33,17 +34,20 @@
       flex-direction: column;
       justify-content: center; 
       width: 64%;
+      height: 330px;
       align-items: center;
       border: 5px solid red;
       font-size: 25px;
       padding: 30px;
+      overflow: auto;
+      border-radius: 12px;
     }
     #prueba-1 {
       display: flex;
       width: 70%;
       justify-content: center;  
       align-items: center;
-      margin-top: 20px;   
+      margin-top: 20px;  
     }
     /* Problema 2 */
     #box-2{
@@ -52,7 +56,11 @@
       font-family: Arial, sans-serif;
       background-color: #c88ece;
       text-align: center;
-      padding: 30px;
+      padding: 15px;
+      border-radius: 12px;
+    }
+    p{
+      padding: 15px;
     }
     h1 {
       color: #333;
@@ -62,7 +70,7 @@
       justify-content: center;
       gap: 15px;
       flex-wrap: wrap;
-      margin-top: 40px;    
+      margin-top: 20px;    
     }
     .sticker {
       background: white;
@@ -87,12 +95,14 @@
       padding: 5px;
       text-align: center;
       font-size: 16px;
+      border-radius: 12px;
     }
     #resultado {
-      margin-top: 30px;
-      font-size: 20px;
+      margin-top: 15px;
+      font-size: 30px;
       font-weight: bold;
       color: #333;
+      padding: 10px;
     }
     #resultado.error {
       color: #f70404;
@@ -109,7 +119,8 @@
       margin-bottom: 60px;
       min-width: 350px;
       min-height: 250px;
-      border: 5px solid rgb(20, 5, 230);    
+      border: 5px solid rgb(20, 5, 230);
+      border-radius: 12px;    
     }
     h2{
       color: #333;
@@ -118,18 +129,24 @@
       font-size: 15px;
       margin-top: 20px;
       padding: 5px;
+      border-radius: 12px;
     }
     button {
       margin-top: 20px;
       padding: 8px 20px;
       font-size: 16px;
       cursor: pointer;
+      border-radius: 12px;
     }
     #resultado3 {
       margin-top: 10px;
       font-size: 25px;
       font-weight: bold;
-      color: #333;         
+      color: #06ee19;         
     }
+    #resultado4 {
+      color: #ee0606;  
+    }
+
 
      

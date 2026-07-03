@@ -11,22 +11,22 @@
 
     // 3. Le agregamos un "escuchador de eventos" (event listener) a la imagen.
     //    Cada vez que el usuario haga click, se ejecutará la función indicada.
-    imagen.addEventListener("click", function () {
+          imagen.addEventListener("click", function () {
 
       // 4. Usamos un condicional para revisar el estado actual de la variable
-      if (bordeActivo === false) {
+          if (bordeActivo === false) {
         // Si el borde NO está activo, se lo agregamos usando classList.add
-        imagen.classList.add("borde-activo");
+          imagen.classList.add("borde-activo");
 
         // Y actualizamos la variable para indicar que ahora SÍ está activo
-        bordeActivo = true;
+          bordeActivo = true;
 
       } else {
         // Si el borde YA está activo, lo quitamos con classList.remove
-        imagen.classList.remove("borde-activo");
+          imagen.classList.remove("borde-activo");
 
         // Y actualizamos la variable para indicar que ahora NO está activo
-        bordeActivo = false;
+          bordeActivo = false;
       }
 
       // 5. Con cada click, este proceso se repite: revisa el estado
@@ -83,13 +83,15 @@ calcularStickers();
     document.getElementById("btnIngresar").addEventListener("click", function () {
       const password = select1.value + select2.value + select3.value;
       const resultado3 = document.getElementById("resultado3");
+      
 
       if (password === "911") {
         resultado3.textContent = "Password 1 correcta ✔";
       } else if (password === "714") {
         resultado3.textContent = "Password 2 es correcta ✔";
-      } else {
-        resultado3.textContent = "Password incorrecta ❌";
+      } else { 
+        
+        resultado4.textContent = "Password incorrecta ❌";
       }
     });
 
