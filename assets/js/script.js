@@ -90,8 +90,7 @@ calcularStickers();
       } else if (password === "714") {
         resultado3.textContent = "Password 2 es correcta ✔";
       } else { 
-        
-        resultado4.textContent = "Password incorrecta ❌";
+        resultado3.textContent = "Password incorrecta ❌";
       }
     });
 
